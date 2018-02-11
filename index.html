@@ -130,8 +130,16 @@
 //
 //document.write(John.age);
           
-          var courses = new Array("maths","Eng","kiswa");
-          document.write(courses.length);
+//          var courses = new Array("maths","Eng","kiswa");
+//          document.write(courses.length);
+          function printTime(){
+              var d = new Date();
+              var hours = d.getHours();
+              var min = d.getMinutes();
+              var sec = d.getSeconds();
+              document.body.innerHTML=hours+":"+min+":"+sec;
+          }
+          setInterval(printTime,1000);
       </script>
       
 

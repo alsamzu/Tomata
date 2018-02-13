@@ -15,8 +15,22 @@
 
   </head>
   <body>
+     <div id="demo">
+         <p>Some text</p>
+         <p>more text</p>
+         <p>some more text</p>
+     </div>
       <script>
-          
+          function setText (){
+              var a= document.getElementById("demo");
+          var arr = a.childNodes;
+          for (var x=0; x<arr.length;x++){
+              arr[x].innerHTML="New Text";
+          } 
+          }
+         
+         //calling the function with setTimeout to make sure the HTML is loaded
+setTimeout(setText, 500);
          // document.querySelector('html').onclick = function() {
     //alert('Ouch! Stop poking me!');
 //}
@@ -132,14 +146,14 @@
           
 //          var courses = new Array("maths","Eng","kiswa");
 //          document.write(courses.length);
-          function printTime(){
-              var d = new Date();
-              var hours = d.getHours();
-              var min = d.getMinutes();
-              var sec = d.getSeconds();
-              document.body.innerHTML=hours+":"+min+":"+sec;
-          }
-          setInterval(printTime,1000);
+//          function printTime(){
+//              var d = new Date();
+//              var hours = d.getHours();
+//              var min = d.getMinutes();
+//              var sec = d.getSeconds();
+//              document.body.innerHTML=hours+":"+min+":"+sec;
+//          }
+//          setInterval(printTime,1000);
       </script>
       
 

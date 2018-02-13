@@ -21,13 +21,15 @@
          <p>some more text</p>
      </div>
       <script>
-          function setText (){
-              var a= document.getElementById("demo");
-          var arr = a.childNodes;
-          for (var x=0; x<arr.length;x++){
-              arr[x].innerHTML="New Text";
-          } 
-          }
+//          function setText (){
+//              var a= document.getElementById("demo");
+//          var arr = a.childNodes;
+//          for (var x=0; x<arr.length;x++){
+//              arr[x].innerHTML="New Text";
+//          } 
+//          }
+          var c= document.getElementById("demo");
+          c.style.color='#f50057';
          
          //calling the function with setTimeout to make sure the HTML is loaded
 setTimeout(setText, 500);

@@ -19,6 +19,7 @@
          <p>Some text</p>
          <p>more text</p>
          <p>some more text</p>
+         <p id="p1">this should be deleted</p>
      </div>
       <script>
 //          function setText (){
@@ -30,6 +31,10 @@
 //          }
           var c= document.getElementById("demo");
           c.style.color='#f50057';
+          var par =document.getElementById("demo");
+          var chil =document.getElementById("p1");
+          par.removeChild(chil);
+          
          
          //calling the function with setTimeout to make sure the HTML is loaded
 setTimeout(setText, 500);

@@ -15,13 +15,58 @@
 
   </head>
   <body>
+  	<input type="text" id="name" onchange="change()">
+<!--
+  <style>
+#container {
+  width: 200px;
+  height: 200px;
+  background: green;
+  position: relative;
+}
+#box {
+  width: 50px;
+  height: 50px;
+  background: red;
+  position: absolute;
+}
+</style>
+  
+<div id="container">
+   <div id="box"> </div>
+</div>
+-->
+
+<!--
      <div id="demo">
          <p>Some text</p>
          <p>more text</p>
          <p>some more text</p>
          <p id="p1">this should be deleted</p>
+         <p id="p2">this should be deleted</p>
      </div>
+-->
+
       <script>
+          
+          function change(){
+              var x = document.getElementById("name");
+              x.value=x.value.toUpperCase();
+          }
+//          var x =document.getElementById("demo");
+//          x.onclick=Function (){
+//              document.body.innerHTML=Date();
+//          }
+          // starting position
+//var pos = 0; 
+////our box element
+//var box = document.getElementById("box");
+//
+//function move() {
+//  pos += 1;
+//  box.style.left = pos+"px"; //px = pixels
+//}
+//          move();
 //          function setText (){
 //              var a= document.getElementById("demo");
 //          var arr = a.childNodes;
@@ -29,15 +74,22 @@
 //              arr[x].innerHTML="New Text";
 //          } 
 //          }
-          var c= document.getElementById("demo");
-          c.style.color='#f50057';
-          var par =document.getElementById("demo");
-          var chil =document.getElementById("p1");
-          par.removeChild(chil);
-          
-         
-         //calling the function with setTimeout to make sure the HTML is loaded
-setTimeout(setText, 500);
+//          var c= document.getElementById("demo");
+//          c.style.color='#f50057';
+//          var par =document.getElementById("demo");
+//          var chil =document.getElementById("p1");
+//          par.removeChild(chil);
+//          var p = document.createElement("p");
+//var node = document.createTextNode("This is new");
+//p.appendChild(node);
+//
+//var parent = document.getElementById("demo");
+//var child = document.getElementById("p2");
+//parent.replaceChild(p, child);
+//          
+//         
+//         //calling the function with setTimeout to make sure the HTML is loaded
+//setTimeout(setText, 500);
          // document.querySelector('html').onclick = function() {
     //alert('Ouch! Stop poking me!');
 //}

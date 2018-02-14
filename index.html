@@ -16,6 +16,7 @@
   </head>
   <body>
   	<input type="text" id="name" onchange="change()">
+  	<button id="dem">Start</button>
 <!--
   <style>
 #container {
@@ -48,10 +49,24 @@
 -->
 
       <script>
+          var btn = document.getElementById("dem");
+btn.addEventListener("click", myFunction);
+
+function myFunction() {
+  alert(Math.random());
+  btn.removeEventListener("click", myFunction);
+}
           
           function change(){
               var x = document.getElementById("name");
               x.value=x.value.toUpperCase();
+          }
+          
+          
+          Element.addEventListener("click",myfunction);
+          Element.addEventListener("mouseover",myfunction);
+          function myfunction(){
+              alert("Hello World");
           }
 //          var x =document.getElementById("demo");
 //          x.onclick=Function (){

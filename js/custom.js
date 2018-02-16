@@ -8,3 +8,5 @@ if(myAge==24){
 else{
     document.write("\n You are Zulfa")
 }
+var myNum=5
+document.write(++myNum)

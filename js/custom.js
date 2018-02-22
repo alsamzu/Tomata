@@ -102,4 +102,16 @@ function max(x,y){
     }
 }
 max(15,5);
-max(13,34);
+//user input
+function maxi(){
+    var x =prompt("enter the first number");
+    var y =prompt("enter the second number");
+     if(x>y){
+        document.write(x+" is greater than "+y);
+    }
+    else{
+        document.write(y+" is greater than "+x);
+    }
+}
+    
+}

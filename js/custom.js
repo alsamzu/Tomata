@@ -93,25 +93,81 @@
 ////    }
 //}
 //ksh();
-function max(x,y){
-    if(x>y){
-        document.write(x+" is greater than "+y);
-    }
-    else{
-        document.write(y+" is greater than "+x);
-    }
-}
-max(15,5);
-//user input
-function maxi(){
-    var x =prompt("enter the first number");
-    var y =prompt("enter the second number");
-     if(x>y){
-        document.write(x+" is greater than "+y);
-    }
-    else{
-        document.write(y+" is greater than "+x);
-    }
-}
+//Maximum Number
+//function max(x,y){
+//    if(x>y){
+//        document.write(x+" is greater than "+y);
+//    }
+//    else{
+//        document.write(y+" is greater than "+x);
+//    }
+//}
+//max(15,5);
+////user input
+//function maxi(){
+//    var x =prompt("enter the first number");
+//    var y =prompt("enter the second number");
+//     if(x>y){
+//        document.write(x+" is greater than "+y);
+//         
+//    }
+//    else{
+//        document.write(y+" is greater than "+x);
+//    }
+//}
+//maxi();
+//    AREA OF A CIRCLE
+
+//function circle(){
+// var x =prompt("Enter Radius");
+//    var area = 3.14*x*x;
+//    alert("Radius : "+x +" area: " +area);
+//}
+//circle();
+
+//POSITIVE AND NEGATIVE NUMBERS
+//function pos(){
+//    var x=prompt("Enter first number ");
+//    x=parseInt(x);
+//    if(x>0){
+//        alert(x+"is a positive number");
+//    }
+//    else if(x==0){
+//        alert(x+"is equal to zero");
+//        
+//        
+//    }
+//    else{
+//        alert(x+" is a negative number");
+//    }
+//}
+//pos();
+
+
+//Dollar Conversion
+
+function doll(){
+    var a =prompt("Welcome! \n Please enter your name");
+    var b = prompt(a+" enter your amount in Kes");
+    var c = b/105;
+
+    var d = prompt(a+" you have "+c+" dollars.What would you like to buy \n 1.Top@ 50$ \n 2.Shoes@ 50$ \n 3.Both@ 150$");   
     
+    
+    if(d=1 && c>=50){
+    alert("Thanks for purchasing the Top.");
+    }
+     else if(d=2 && c>=100){
+    alert("Thanks for purchasing the Shoes.");
+    }
+    else if(d=3 && c>=150){
+        alert("Thanks for purchasing Shoes and Top.");
+    }
+    else{
+         alert("Thanks "+a+" for visiting "+c+" is not enough to purchase anything.");
+    }
+    
+   
 }
+doll();
+

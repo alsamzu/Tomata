@@ -178,5 +178,11 @@
 //FUNCTION TO CHECK IF A NUMBER IS PRIME OR NOT
 function prime(){
     var a=prompt("Enter a number to check if it is a prime number");
+    var count = 0;
+    for(int x=1;x<=a;x++){
+        if(a %x==0){
+            count++;
+        }
+    }
 }
 prime();

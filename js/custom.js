@@ -175,14 +175,8 @@
 //    }
 //}
 //prime();
-function shop(){
-    var a=prompt("Enter your name");
-    if(a =="admin"){
-        alert("Shopping List: \n 1.Carrots \n 2.Onions \n 3.Potatoes");
-    }
-    else{
-        alert("Shopping List: \n 1.Shoes \n 2.Socks \n 3.Tshirts");
-    }
-    
+//FUNCTION TO CHECK IF A NUMBER IS PRIME OR NOT
+function prime(){
+    var a=prompt("Enter a number to check if it is a prime number");
 }
-shop();
+prime();

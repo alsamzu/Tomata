@@ -176,19 +176,39 @@
 //}
 //prime();
 //FUNCTION TO CHECK IF A NUMBER IS PRIME OR NOT
-function prime(){
-    var a=prompt("Enter a number to check if it is a prime number");
-    var count = 0;
-    for( x=1;x<=a; x++){
-        if(a % x == 0){
-            count++;
+//function prime(){
+//    var a=prompt("Enter a number to check if it is a prime number");
+//    var count = 0;
+//    for( x=1;x<=a; x++){
+//        if(a % x == 0){
+//            count++;
+//        }
+//    }
+//    if(count==2){
+//        alert(a+" is a prime number");
+//    }
+//    else{
+//        alert(a+" is not a prime  nmber");
+//    }
+//}
+//prime();
+
+function login(){
+    var b=alert("Welcome to xyz site.Please click ok to proceed");
+    var a = prompt("Kindly choose your user name to proceed \n 1)Admin \n 2)Finance Manager \n 3)User");
+    if(a=1){
+       var c= prompt("Welcome admin. Please put your password to proceed");
+        if(c==54321){
+            alert("Login was succesful");
+            
         }
-    }
-    if(count==2){
-        alert(a+" is a prime number");
-    }
-    else{
-        alert(a+" is not a prime  nmber");
+        else if (c = null){
+            alert("Password can not be null");
+        }
+        else{
+            alert("Incorrect Password");
+        }
+        
     }
 }
-prime();
+login();

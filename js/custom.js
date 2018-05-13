@@ -63,39 +63,39 @@
 //////    document.write("Your amount in Kes is: " +kes);
 //////}
 //////doll();
-////function ksh(){
-////    var n = prompt("Hello please enter your name");
-////   var d = prompt("hey " +n+ " Enter your amount in Kes");
-////    var dol = d/105;
-////    var choice = prompt(n+" you have "+dol+" dollars. What do want: \n 1.Shoes@ 50$ \n 2.Top@ 100$ \n 3.Both@ 150$");
-////   if(choice=1 && dol>=50){
-////       alert(n+" you can get shoes");
-////       
-////   }
-////    else if(choice=1 && dol<50){
-////        alert(n+" sorry you dont have enough money to get shoes");
-////    }
-//    if(choice=2 && n != "admin"){
-//        alert("sorry you cant buy since you are not an admin");
-//    }
-////    else if(choice=2 && dol>100){
-////        alert(n+" you can get a top");
-////   }
-////   else if (choice=2 && dol<100){
-////       alert(n+" sorry you dont have enough money to get a top");
-////   }
-////   else if(choice=3 && dol>150){
-////       alert(n+" you can get shoes and a top");
-////    }
-////   else if (choice=3 && dol<150){
-////       alert(n+" sorry you dont have enough money to get a top and shoes");
-////   }
-////else if(dol>100){ alert( n+" "+dol+ " can buy you shoes and a top "  );}
-//   else{
-//      alert("sorry "+n+" "+dol+ " can buy you shoes only "  );
-//  }
-//}
-//ksh();
+function ksh(){
+    var n = prompt("Hello please enter your name");
+   var d = prompt("hey " +n+ " Enter your amount in Kes");
+    var dol = d/105;
+    var choice = prompt(n+" you have "+dol+" dollars. What do want: \n 1.Shoes@ 50$ \n 2.Top@ 100$ \n 3.Both@ 150$");
+   if(choice=1 && dol>=50){
+       alert(n+" you can get shoes");
+
+   }
+    else if(choice=1 && dol<50){
+        alert(n+" sorry you dont have enough money to get shoes");
+    }
+    if(choice=2 && n != "admin"){
+        alert("sorry you cant buy since you are not an admin");
+    }
+    else if(choice=2 && dol>100){
+        alert(n+" you can get a top");
+   }
+   else if (choice=2 && dol<100){
+       alert(n+" sorry you dont have enough money to get a top");
+   }
+   else if(choice=3 && dol>150){
+       alert(n+" you can get shoes and a top");
+    }
+   else if (choice=3 && dol<150){
+       alert(n+" sorry you dont have enough money to get a top and shoes");
+   }
+else if(dol>100){ alert( n+" "+dol+ " can buy you shoes and a top "  );}
+   else{
+      alert("sorry "+n+" "+dol+ " can buy you shoes only "  );
+  }
+}
+ksh();
 ////Maximum Number
 ////function max(x,y){
 ////    if(x>y){

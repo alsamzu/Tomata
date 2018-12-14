@@ -1,5 +1,5 @@
 # Tomata
-Tomata inc produces the best tasting tomato sauce and syrup all made from nature.
+Tomata inc produces the best tasting tomato sauce and syrup all made from nature.Made in Kenya
 ### Technology used
 the technology used in this project was:
 
